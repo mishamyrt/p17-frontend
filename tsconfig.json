@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "paths": {
+      "modules": ["./src/modules"]
+    },
+    "baseUrl": "./src/",
+    "module": "commonjs",
+    "lib": ["es2015", "es2019"],
+    "strict": true,
+    "typeRoots": ["./src/declarations"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*.ts", "src/types/types.ts"],
+}

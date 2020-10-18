@@ -1,0 +1,10 @@
+@import '../node_modules/xterm/css/xterm.css';
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+#app {
+  height: 100vh;
+}
